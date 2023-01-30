@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(29, 27, 27);
+    width: 434px;
+    font-family: Verdana;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 45px;
+    
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 25px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.main {
+    background-color: rgb(250, 248, 243);
+    ;
+    width: 90vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(241, 19, 216);*/
+    height: 50vh;
+    width: 70vw;
+    margin: 122px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.devpic img {
+    width: 300px;
+    height: 50vh;
+}
+
+.devinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hello {
+    font-size: 50px;
+    font-weight: 0;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 30px;
+}
+
+.moreabout {
+    font-size: 17px;
+    margin: 10px;
+}
+
+.button {
+    margin-top: 30px;
+}
+
+.button button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(26, 26, 236);
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: rgb(66, 212, 232);
+    color: white;
+}
+
+.main1 {
+    background-color: rgb(250, 248, 243);
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.contactform h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+
+}
+
+.contactform form div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70vw;
+    margin-top: 20px;
+
+}
+
+.contactform form div input {
+    width: 40vw;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.contactform .button {
+    padding: 5px;
+    border-radius: 20px;
+    color: black;
+    background-color: rgb(142, 210, 32);
+    cursor: pointer;
+    font-style: italic
+    
+}
+.button{
+    color: aqua;
+}
+
+.button :hover {
+    color: red;
+
+
+}
+
+.contactform .button {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.Experience h1{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(132, 9, 148);
+    font-family: Verdana;
+}
+
+.Experience {
+    margin: 40px;
+    padding: 10px;
+}
+.Intro {
+    margin-left: 35px;
+    font-size: 35px;
+    padding-top: 50px;
+    font-weight: bold;
+    font-family: Verdana;
+}
+.intro1 p{
+    font-size:30px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: rgb(11, 122, 11);
+}
+.intro2 p{
+    font-size:20px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 50px;
+    font-family: Verdana;
+    font-weight: 700;
+
+}
+.intro3 p{
+    font-size:20px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 50px;
+    font-family: Verdana;
+    font-weight: 700;
+}.intro4 p{
+    font-size:20px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 50px;
+    font-family: Verdana;
+    font-weight: 700;
+}
+.intro5 p{
+    font-size:20px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 10px;
+    font-family: Verdana;
+    font-weight: 700;
+}
+
+
